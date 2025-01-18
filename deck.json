@@ -144,6 +144,466 @@
     {
       "__type__": "Note",
       "fields": [
+        "What is Base calling?",
+        "The process of identifying a nucleotide base sequence from the raw signal data captured by DNA sequencing technologies. For example, fluorescence based sequencing technologies will produce a 'trace' of detected fluorescent light peaks, which can be interpreted to determine if a particular nucleotide base is present at the time of detection."
+      ],
+      "guid": "Z1A2B3C4D5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is a Biobank?",
+        "A physical repository of biological samples collected from human subjects that is intended to support human research studies. Biobanks can be used as a source of genetic material for DNA sequencing."
+      ],
+      "guid": "E6F7G8H9I0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is Bisulphite sequencing?",
+        "A biochemical technique for determining patterns of methylation in a DNA sequence. Cytosine nucleotide residues are converted into uracil in the presence of bisulfite, with the exception that methylated residues (5-methylcytosine) remain unaffected. Bisulfite treated DNA sequence fragments can cleaved, amplified, or sequenced using the converted uracil markers to measure various aspects of DNA methylation patterns."
+      ],
+      "guid": "J1K2L3M4N5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What are Candidate gene studies?",
+        "A genetic association study that incorporates a priori knowledge of genes or other genomic regions suspected to be associated with a trait of interest."
+      ],
+      "guid": "O6P7Q8R9S0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is a Carrier?",
+        "A person who has a recessive mutation and does not exhibit a particular phenotype, but whose children or future generations can exhibit the phenotype when combined with genetic information of other carriers (see also Recessive)."
+      ],
+      "guid": "T1U2V3W4X5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is a Centromere?",
+        "The central portions of each chromosomal pair around where the chromosome appears 'pinched.' The centromere is not necessarily in the precise center of the chromosome, but often offset. Like telomeres, the DNA in and around centromeres often contains repetitive elements."
+      ],
+      "guid": "Y6Z7A8B9C0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is ChIP-Seq?",
+        "Chromatin Immunoprecipitation followed by whole genome sequencing. A molecular biology approach used to identify interactions and localizations of protein-DNA interactions, such as those facilitated by transcription factor binding."
+      ],
+      "guid": "D1E2F3G4H5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is the Chi-squared test in genetics?",
+        "A statistical hypothesis testing approach that can be used to assess differences in counts of categorical variables. e.g., observed genotype frequency counts between case and control populations in a genetic association study."
+      ],
+      "guid": "I6J7K8L9M0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is Chromatin?",
+        "A complex of genomic DNA and proteins that form chromosomes."
+      ],
+      "guid": "N1O2P3Q4R5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What are Chromosomes?",
+        "Densely packed structures where genetic information (DNA) is wrapped around protein scaffolds (histones). Humans have 23 chromosomes, 22 of which are typical chromosomes (autosomes) and a sex-determining chromosome."
+      ],
+      "guid": "S6T7U8V9W0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is CLIA?",
+        "The Clinical Laboratory Improvement Amendments (CLIA) are federally mandated regulatory standards in the United States that pertain to clinical laboratory testing performed on humans for medical purposes. CLIA does not generally apply to scientific research or clinical trial settings."
+      ],
+      "guid": "X1Y2Z3A4B5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is a CNV (Copy Number Variant)?",
+        "A genetic variation that affects the number of copies of a particular genomic region (e.g., exons). CNVs may involve variation of DNA segments ranging from 1 kilobase to several megabases in length."
+      ],
+      "guid": "C6D7E8F9G0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is a Codon?",
+        "A unit of triplet of DNA (e.g., GCT, or TTA) that encodes information pertaining to a specific amino acid base or stop signal, which is interpreted by the ribosome during protein biosynthesis."
+      ],
+      "guid": "H1I2J3K4L5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is a Common variant?",
+        "A variant that is found in an substantive proportion of the population (typically at least one to five percent of a population)."
+      ],
+      "guid": "M6N7O8P9Q0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is Compound heterozygosity?",
+        "The state of having two distinct mutant alleles at a specific locus. If both mutant alleles are pathogenic, then the individual may still develop some form of autosomal recessive disease despite being heterozygous at the disease-associated locus."
+      ],
+      "guid": "R1S2T3U4V5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is a Conservative mutation?",
+        "A non-synonymous mutation that does not cause severe changes in the structural or physiochemical properties of the resulting protein."
+      ],
+      "guid": "W6X7Y8Z9A0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is Coverage in genome sequencing?",
+        "Sequencing coverage is a quantity reflecting the average number of times that a base is likely to be read as part of a short read in the process of sequencing a personal genome. i.e., The average number of redundant reads for a base from overlapping short reads. Although there are many caveats, the resulting sequence assembly is likely to be more accurate with increased coverage."
+      ],
+      "guid": "B1C2D3E4F5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is Cytogenetics?",
+        "A branch of genetics that is primarily concerned with the forms, structures, and interactions of chromosomes in cellular context."
+      ],
+      "guid": "G6H7I8J9K0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is de novo sequencing?",
+        "In contrast to read mapping based approaches, de novo sequencing seeks to measure and assemble short reads into a full-length sequence without the use of a reference sequence."
+      ],
+      "guid": "L1M2N3O4P5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is a Dominant allele?",
+        "If only one allele of a particular gene is required to produce a phenotype, the allele is said to be dominant. For autosomes, the phenotype can be observed with individuals who are heterozygous or homozygous for this allele. In the sex chromosomes, the phenotype can be observed with one copy in males (as they are hemizygous, or have only one copy of the X chromosome)."
+      ],
+      "guid": "Q6R7S8T9U0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is a Dominant mutation?",
+        "A mutation that only requires a heterozygous state to produce a phenotype."
+      ],
+      "guid": "V1W2X3Y4Z5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What are DNA microarrays?",
+        "A versatile technology used to perform many biochemical reactions in parallel. DNA microarrays can contain up to millions of DNA 'spots' where DNA fragments are bound to the solid chip surface. Through various technical and chemical treatments, the DNA spots can be used as biochemical probes to quantify gene expression, or measure for the presence of specific DNA fragments."
+      ],
+      "guid": "A6B7C8D9E0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is DTC in genomics?",
+        "Direct to Consumer (DTC) describes a model for providing personal genomic profiling and analysis directly to individual consumers without intermediary involvement of a medical professional."
+      ],
+      "guid": "F1G2H3I4J5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is Effect size in genetics?",
+        "In the context of statistics, a quantitative measure of the strength of some statistical relationship (e.g., proportion of variance explained)."
+      ],
+      "guid": "K6L7M8N9O0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is Enrichment in genetic statistics?",
+        "A statistical concept where a result is more extreme than a background expectation. For instance, a group of genes is said to be enriched in a phenotype if more genes in that set are involved with metabolism than one would expect by chance. This enrichment is calculated by a statistical test such as a Fisher's exact test or a chi-squared test and is based on a background set (and knowledge of how many genes in general are involved with that phenotype)."
+      ],
+      "guid": "P1Q2R3S4T5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is Epigenetics?",
+        "The general term for modification of the genome in ways that can alter gene function without changing the DNA sequence. Typically, this refers to methylation of DNA, or chemical modifications of histone proteins, which can alter gene expression."
+      ],
+      "guid": "U6V7W8X9Y0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is Epistasis?",
+        "In general, a term used to describe the phenomena where the effects of a single locus are modified by one or several other loci. The term is used to describe interactions that are either physical or statistical in nature."
+      ],
+      "guid": "Z1A2B3C4D5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is eQTL?",
+        "Expression quantitative loci. SNPs that are correlated with gene expression (particularly of nearby genes)."
+      ],
+      "guid": "E6F7G8H9I0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is Evolutionary conservation?",
+        "The concept that the composition of a genome in particular regions (e.g., nucleotide or amino acid sequence) is similar across multiple species, which is evidence for conserved function."
+      ],
+      "guid": "J1K2L3M4N5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is Exome sequencing?",
+        "An approach to genome sequencing that is limited to only measuring the genomic DNA comprising the exons representing the expressed portion of genes in a personal genome (~1-2% of bases in a single human genome)."
+      ],
+      "guid": "O6P7Q8R9S0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What are Exons?",
+        "Sections of a gene that will remain when introns are spliced out, including protein coding regions and untranslated regions (5' and 3' UTRs)."
+      ],
+      "guid": "T1U2V3W4X5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is the Founder effect?",
+        "Loss of genetic variation when a new population is established by a very small group of 'founder' individuals from a larger population as a result of migration or population bottleneck. Reduced genetic variation and strong effects of random sampling in small populations can lead to rapid fixation of previously rare alleles or loss of previously common alleles."
+      ],
+      "guid": "Y6Z7A8B9C0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is a Frameshift?",
+        "An insertion or deletion mutation in a coding region whose length is not a multiple of 3. These mutations can drastically alter amino acid coding sequences by offsetting the triplet code required for translation. For instance, if the first C is deleted from the sequence CAT CAT CAT, the first two amino acids would be Isoleucines (ATC ATC) rather than Histidines (CAT CAT)."
+      ],
+      "guid": "D1E2F3G4H5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is a Gene?",
+        "A functional unit of DNA that is processed to produce an expressed product (RNA and/or protein)."
+      ],
+      "guid": "I6J7K8L9M0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is Gene dosage?",
+        "The number of copies of a gene present within a cell."
+      ],
+      "guid": "N1O2P3Q4R5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is Gene expression?",
+        "The process in which the genetic information encoded by a gene and its exons is expressed as a functional unit through synthesis of mRNA, rRNA, tRNA, snoRNA, miRNA, or protein."
+      ],
+      "guid": "S6T7U8V9W0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is Gene regulation?",
+        "The process coordinating the expression of one or several genes, which is usually determined by cellular context."
+      ],
+      "guid": "X1Y2Z3A4B5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What are Genetic association studies?",
+        "An epidemiological study design that aims to discover statistical associations between genetic variation and variation in a specific molecular or physiological trait of interest."
+      ],
+      "guid": "C6D7E8F9G0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is Genetic determinism?",
+        "A misinformed belief that genetics is the primary determinant of most human traits, which can be particularly egregious when evoked in discussions of complex traits such as behavior or intelligence. While genetics plays a role in many human traits and diseases, it is usually only part of the story."
+      ],
+      "guid": "H1I2J3K4L5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is Genetic drift?",
+        "The fluctuation of allele frequencies based on random sampling. Across history, certain individuals leave behind more offspring than others simply by chance. After several generations, the effects of this random sampling will cause the allele frequencies of variants to 'drift' randomly towards higher or lower frequencies."
+      ],
+      "guid": "M6N7O8P9Q0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is a Genome?",
+        "The collection of DNA/genes in an organism. In humans, this corresponds to about 3 gigabases of sequence (Gb) or 3 billion nucleotide base pairs per copy of the genome."
+      ],
+      "guid": "R1S2T3U4V5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is a Genome browser?",
+        "A software tool used to visualize genome sequence information. The University of California Santa Cruz (UCSC) Genome Browser (http://genome.ucsc.edu) is a popular example."
+      ],
+      "guid": "W6X7Y8Z9A0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is Genomic imprinting?",
+        "The heritable inactivation of one of the two copies of a particular gene, through methylation or other epigenetic processes."
+      ],
+      "guid": "B1C2D3E4F5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is Genotype?",
+        "A general term used to describe the genetic composition of an individual, usually with reference to a particular locus (e.g., SNP genotype)."
+      ],
+      "guid": "G6H7I8J9K0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is GINA?",
+        "The Genetic Information Nondiscrimination Act is a United States law that is intended to prevent genetic discrimination in obtaining health insurance or employment."
+      ],
+      "guid": "L1M2N3O4P5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is GWAS?",
+        "Genome-wide association studies are Genetic Association studies that measure many genomic loci in parallel without a priori knowledge of which regions are likely to associate with a trait (see also Genetic association studies)."
+      ],
+      "guid": "Q6R7S8T9U0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
         "What is ADME?",
         "Absorption, Distribution, Metabolism, and Excretion. The four major processes controlling a drug's progression through the body."
       ],
