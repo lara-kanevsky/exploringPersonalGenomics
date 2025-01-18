@@ -1,636 +1,648 @@
 {
-    "__type__": "Deck",
-    "children": [],
-    "crowdanki_uuid": "65a8fbe2-d5a1-11ef-a419-5bf4af1bb823",
-    "deck_config_uuid": "65a906d2-d5a1-11ef-a419-5bf4af1bb823",
-    "deck_configurations": [
+  "__type__": "Deck",
+  "children": [],
+  "crowdanki_uuid": "65a8fbe2-d5a1-11ef-a419-5bf4af1bb823",
+  "deck_config_uuid": "65a906d2-d5a1-11ef-a419-5bf4af1bb823",
+  "deck_configurations": [
+    {
+      "__type__": "DeckConfig",
+      "answerAction": 0,
+      "autoplay": true,
+      "buryInterdayLearning": false,
+      "crowdanki_uuid": "65a906d2-d5a1-11ef-a419-5bf4af1bb823",
+      "desiredRetention": 0.9,
+      "dyn": false,
+      "easyDaysPercentages": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+      "fsrsParams5": [],
+      "fsrsWeights": [],
+      "ignoreRevlogsBeforeDate": "1970-01-01",
+      "interdayLearningMix": 0,
+      "lapse": {
+        "delays": [10.0],
+        "leechAction": 1,
+        "leechFails": 8,
+        "minInt": 1,
+        "mult": 0.0
+      },
+      "maxTaken": 60,
+      "name": "Default",
+      "new": {
+        "bury": false,
+        "delays": [1.0, 10.0],
+        "initialFactor": 2500,
+        "ints": [1, 4, 0],
+        "order": 1,
+        "perDay": 20
+      },
+      "newGatherPriority": 0,
+      "newMix": 0,
+      "newPerDayMinimum": 0,
+      "newSortOrder": 0,
+      "questionAction": 0,
+      "replayq": true,
+      "rev": {
+        "bury": false,
+        "ease4": 1.3,
+        "hardFactor": 1.2,
+        "ivlFct": 1.0,
+        "maxIvl": 36500,
+        "perDay": 200
+      },
+      "reviewOrder": 8,
+      "secondsToShowAnswer": 0.0,
+      "secondsToShowQuestion": 0.0,
+      "sm2Retention": 0.9,
+      "stopTimerOnAnswer": false,
+      "timer": 0,
+      "waitForAudio": true,
+      "weightSearch": ""
+    }
+  ],
+  "desc": "",
+  "dyn": 0,
+  "extendNew": 0,
+  "extendRev": 0,
+  "media_files": [
+    "300px-Components_of_a_Nomogram.png",
+    "Bcrablmet.jpg",
+    "Sequencing.jpg",
+    "paste-56c57e12241f1ba415c8ac01e07a6d170333389b.png",
+    "paste-5bb6a1c71308bf65221db141c1d0f2ed0bea0dec.jpg",
+    "paste-756cf0337dd4b467941e9f42fde96bf705152b7c.jpg",
+    "paste-b45af165e7be2ace96b82aa381ffaa60d469e593.jpg",
+    "paste-d6fcba7c3e9753eaa6202d37aa16fdc3770e360a.jpg",
+    "paste-e6702ade699744677e258d1fdfbc37f49c3de47a.jpg",
+    "paste-ea66bc91f552671418ad2b6e757d4eff1a228375.jpg",
+    "paste-fe67d9bd4368353a924e612d72ebe8a8810f248f.jpg"
+  ],
+  "name": "Exploring personal genomics",
+  "newLimit": null,
+  "newLimitToday": null,
+  "note_models": [
+    {
+      "__type__": "NoteModel",
+      "crowdanki_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+      "flds": [
         {
-            "__type__": "DeckConfig",
-            "answerAction": 0,
-            "autoplay": true,
-            "buryInterdayLearning": false,
-            "crowdanki_uuid": "65a906d2-d5a1-11ef-a419-5bf4af1bb823",
-            "desiredRetention": 0.9,
-            "dyn": false,
-            "easyDaysPercentages": [
-                1.0,
-                1.0,
-                1.0,
-                1.0,
-                1.0,
-                1.0,
-                1.0
-            ],
-            "fsrsParams5": [],
-            "fsrsWeights": [],
-            "ignoreRevlogsBeforeDate": "1970-01-01",
-            "interdayLearningMix": 0,
-            "lapse": {
-                "delays": [
-                    10.0
-                ],
-                "leechAction": 1,
-                "leechFails": 8,
-                "minInt": 1,
-                "mult": 0.0
-            },
-            "maxTaken": 60,
-            "name": "Default",
-            "new": {
-                "bury": false,
-                "delays": [
-                    1.0,
-                    10.0
-                ],
-                "initialFactor": 2500,
-                "ints": [
-                    1,
-                    4,
-                    0
-                ],
-                "order": 1,
-                "perDay": 20
-            },
-            "newGatherPriority": 0,
-            "newMix": 0,
-            "newPerDayMinimum": 0,
-            "newSortOrder": 0,
-            "questionAction": 0,
-            "replayq": true,
-            "rev": {
-                "bury": false,
-                "ease4": 1.3,
-                "hardFactor": 1.2,
-                "ivlFct": 1.0,
-                "maxIvl": 36500,
-                "perDay": 200
-            },
-            "reviewOrder": 8,
-            "secondsToShowAnswer": 0.0,
-            "secondsToShowQuestion": 0.0,
-            "sm2Retention": 0.9,
-            "stopTimerOnAnswer": false,
-            "timer": 0,
-            "waitForAudio": true,
-            "weightSearch": ""
+          "collapsed": false,
+          "description": "",
+          "excludeFromSearch": false,
+          "font": "Arial",
+          "id": -1827415118654113818,
+          "name": "Front",
+          "ord": 0,
+          "plainText": false,
+          "preventDeletion": false,
+          "rtl": false,
+          "size": 20,
+          "sticky": false,
+          "tag": null
+        },
+        {
+          "collapsed": false,
+          "description": "",
+          "excludeFromSearch": false,
+          "font": "Arial",
+          "id": 7320856369700748621,
+          "name": "Back",
+          "ord": 1,
+          "plainText": false,
+          "preventDeletion": false,
+          "rtl": false,
+          "size": 20,
+          "sticky": false,
+          "tag": null
         }
-    ],
-    "desc": "",
-    "dyn": 0,
-    "extendNew": 0,
-    "extendRev": 0,
-    "media_files": [
-        "300px-Components_of_a_Nomogram.png",
-        "Bcrablmet.jpg",
-        "Sequencing.jpg",
-        "paste-56c57e12241f1ba415c8ac01e07a6d170333389b.png",
-        "paste-5bb6a1c71308bf65221db141c1d0f2ed0bea0dec.jpg",
-        "paste-756cf0337dd4b467941e9f42fde96bf705152b7c.jpg",
-        "paste-b45af165e7be2ace96b82aa381ffaa60d469e593.jpg",
-        "paste-d6fcba7c3e9753eaa6202d37aa16fdc3770e360a.jpg",
-        "paste-e6702ade699744677e258d1fdfbc37f49c3de47a.jpg",
-        "paste-ea66bc91f552671418ad2b6e757d4eff1a228375.jpg",
-        "paste-fe67d9bd4368353a924e612d72ebe8a8810f248f.jpg"
-    ],
-    "name": "Exploring personal genomics",
-    "newLimit": null,
-    "newLimitToday": null,
-    "note_models": [
+      ],
+      "latexPost": "\\end{document}",
+      "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+      "latexsvg": false,
+      "name": "Basic",
+      "originalStockKind": 1,
+      "req": [[0, "any", [0]]],
+      "sortf": 0,
+      "tags": [],
+      "tmpls": [
         {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
-            "flds": [
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "id": -1827415118654113818,
-                    "name": "Front",
-                    "ord": 0,
-                    "plainText": false,
-                    "preventDeletion": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false,
-                    "tag": null
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "id": 7320856369700748621,
-                    "name": "Back",
-                    "ord": 1,
-                    "plainText": false,
-                    "preventDeletion": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false,
-                    "tag": null
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basic",
-            "originalStockKind": 1,
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tags": [],
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "id": 1927816613188793753,
-                    "name": "Card 1",
-                    "ord": 0,
-                    "qfmt": "{{Front}}"
-                }
-            ],
-            "type": 0
+          "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+          "bafmt": "",
+          "bfont": "",
+          "bqfmt": "",
+          "bsize": 0,
+          "did": null,
+          "id": 1927816613188793753,
+          "name": "Card 1",
+          "ord": 0,
+          "qfmt": "{{Front}}"
         }
-    ],
-    "notes": [
-        {
-            "__type__": "Note",
-            "fields": [
-                "Microbiomics",
-                "The science of collectively characterizing and quantifying molecules responsible for the structure, function, and dynamics of a microbial community."
-            ],
-            "guid": "m+ok72);$a",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": [
-                "libro-ExploringPersonalGenomics"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Metagenomics",
-                "The study of the structure and function of entire nucleotide sequences isolated and analyzed from all the organisms (typically microbes) in a bulk sample."
-            ],
-            "guid": "O!}LXDlhHl",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": [
-                "libro-ExploringPersonalGenomics"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Genotyping",
-                "Is the process of determining differences in the genetic make-up (genotype) of an individual by examining the individual's DNA sequence using biological assays and comparing it to another individual's sequence or a reference sequence. It reveals the alleles an individual has inherited from their parents.[1] Traditionally genotyping is the use of DNA sequences to define biological populations by use of molecular tools. It does not usually involve defining the genes of an individual."
-            ],
-            "guid": "GKc}vQ+9v.",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": [
-                "libro-ExploringPersonalGenomics"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Which are the 3 levels of information one can get from their DNA?",
-                "<ul><li>Genotype</li><li>Full exome</li><li>Full genome</li></ul>"
-            ],
-            "guid": "KjaUEWj5Uq",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": [
-                "libro-ExploringPersonalGenomics"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Which is the most common method for high-throughput genotyping of a personal genome?",
-                "DNA microarrays/SNP chips"
-            ],
-            "guid": "F>L4x,BPq9",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": [
-                "libro-ExploringPersonalGenomics"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What is a DNA microarray/SNP chip/DNA chip/biochip?",
-                "A DNA microarray is a collection of microscopic DNA spots attached to a solid surface.<br>They allow you to measure the expression levels of &nbsp;large numbers of genes simultaneously or to&nbsp;genotype&nbsp;multiple regions of a genome.<br>Each DNA spot contains a specific DNA sequence known as a probe/reporter/oligo.<br>The fluorecent sample is exposed to the probes. It will bond with the one that complements it.<br>They probe a set of approximately one million SNPs simultaneously.<br>SNP<br>arrays are often designed for a specific target pop-<br>ulation because different world-<br>wide populations and ethnicities have different<br>linkage structures and haplotype blocks"
-            ],
-            "guid": "O3G.q:Ig>o",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": [
-                "libro-ExploringPersonalGenomics"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Why are SNP chips useful if they only detect a small percentage of the genome?",
-                "Since any two individuals are identical at 99.9% of the genome and most of the polymorphisms in a personal genome are common it is possible to capture the bulk of genetic variation through measurement of only a few million SNPs. Furthermore, the widespread presence of <b>linkage<br>disequilibrium</b> (LD) throughout the genome further reduces the number of SNPs that need to be measured. Specifically, if multiple SNPs in a given region are linked, one of them can serve as a proxy tag SNP for the others, meaning only one of them needs to be measured to accurately infer (in a<br>process known as imputation) the genotype at the others."
-            ],
-            "guid": "lU+z7a8V`N",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": [
-                "libro-ExploringPersonalGenomics"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "¿Que es&nbsp;homocigoto y heterocigoto?",
-                "Un individuo tiene 2 copias de cada gen, denominadas alelo materno y alelo paterno. Cuando los 2 alelos de un gen son idénticos, se denomina homocigoto"
-            ],
-            "guid": "bliMV}<.Xq",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Que estudia la genomica",
-                "el genoma(el conjunto de genes) y la relacion entre genes y su entorno celular"
-            ],
-            "guid": "C^3#5;/reS",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Que es la&nbsp;degeneración del código genético",
-                "la&nbsp;propiedad de diferentes tripletes se traducen (o codifican) en un mismo aminoácido"
-            ],
-            "guid": "yL=Dhv?sNk",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Cuales son las generaciones de secuenciacion de genoma?",
-                "1ra generacion: metodo de sanger<br>2da generacion:secuenciacion por sintesis<br>3ra generacion: aun en desarrollo, lee de principio a fin una larga molecula de adn"
-            ],
-            "guid": "_lH[3IAe8",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Explain how Sanger's classic sequencing works and its diference with modern Sanger's sequencing",
-                "Sanger sequencing is based on Di deoxy nucleotides.<br>Di means two, deoxy means without oxidril group.<br>Nucleotide:<br><img src=\"paste-d6fcba7c3e9753eaa6202d37aa16fdc3770e360a.jpg\"><br>Deoxy nucleotide (present in DNA):<br><img src=\"paste-fe67d9bd4368353a924e612d72ebe8a8810f248f.jpg\"><br>The hidroxil group attached plays a very important role in DNA polimerization reaction between the phosphate and the hidroxil.<br><img src=\"paste-b45af165e7be2ace96b82aa381ffaa60d469e593.jpg\"><br>Sanger thought, if the OH group is absent then the reaction stops<br><img src=\"paste-5bb6a1c71308bf65221db141c1d0f2ed0bea0dec.jpg\"><br>The template DNA to be sequenced is divided into four tubes. Each has a primer that will bind to the template DNA.<br>Each tube has:<br>- A primer<br>- dNTP (deoxy nucleotide triphosphate) (A,T,G and C)<br>- DNA polimerase<br>- One radiolabelled(any compound that has been joined with a radioactive substance) dideoxy nucleotide (at very low concentration)<br>Tube 1: ddATP<br>Tube 2: ddTTP<br>Tube 3: ddGTP<br>Tube 4: ddCTP<br><br>These dideoxynucleotides attach at random so you end up with diferent lengths of dna segments all indicating a specific base. The dna fragments are heat denatured and separated by size using gel electrophoresis.<br>The dna bands may then be visualized by&nbsp;autoradiography&nbsp;or UV light, and the DNA sequence can be directly read off the&nbsp;X-ray film&nbsp;or gel image.<br><img src=\"Sequencing.jpg\"><br><br>HOW MODERN SANGER SEQUENCING IS MADE (uses Taq DNA polimerase):<br>each dideoxynucleotide is attached to a fluorescent dye. Only one tube is needed.<br><img src=\"paste-756cf0337dd4b467941e9f42fde96bf705152b7c.jpg\"><br>It also uses capillary electrophoresis fot he separation of the dna fragments. They are equiped with CCD (charged coupled devices) for the detection of fluorescent signals.<br><br><br>"
-            ],
-            "guid": "Kt)-=1-!i8",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What is PCR",
-                "PCR or polimerase chain reaction provides a way to make more copies of a portion of DNA it does not have to happen in a cell, it can happen in a test tube.<br>You need:<br>- DNA portion<br>- Buffer: where to put everything<br>- Primer<br>- DNA polymerase (a heat resistent type, as PCR uses heat, called Taq Polymerase)<br>- DNA nucleotides<br><br>1. Denaturation (to separate the two strands)<br>2. Annealing (cooling and binded with the primers)<br>3. DNA synthesis<br><br>Now repeat the steps"
-            ],
-            "guid": "p-Tu?=,qf`",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What is a bacterial artificial chromosome",
-                "<span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">A bacterial&nbsp;</span><span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">artificial chromosome</span><span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">&nbsp;(BAC) is&nbsp;</span><b>an engineered DNA molecule used to clone DNA sequences in bacterial cells</b><span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">&nbsp;(for example, E. coli). BACs are often used in connection with DNA sequencing. Segments of an organism's DNA, ranging from 100,000 to about 300,000 base pairs, can be inserted into BACs.<br></span>&nbsp;In BAC sequencing, short piece of the organism's&nbsp;DNA&nbsp;is amplified as an insert in BACs, and then sequenced. Finally, the sequenced parts are rearranged&nbsp;in silico, resulting in the genomic sequence of the organism. BACs were replaced with faster and less laborious sequencing methods like whole genome&nbsp;shotgun sequencing&nbsp;and now more recently&nbsp;next-gen sequencing."
-            ],
-            "guid": "q%*D4<IVN:",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What is shotgun sequencing",
-                "In this<br>method, a region of interest is randomly fragmented<br>and the resulting fragments are sequenced, in the<br>hope of finding overlapping segments that can be<br>strung together akin to assembling a DNA puzzle"
-            ],
-            "guid": "Rcaz9aKr:a",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What is refered to as the reference genome",
-                "the reference genome is the genome sequenced in the human genome project<br><span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">A Reference Genome is&nbsp;</span><b>a standardized representative sequence created from the genomes of multiple individuals, serving as a genetic baseline for comparing DNA changes</b><span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">. It is used to compare patient data and is maintained and updated by scientific collaborations to improve accuracy in genomic analysis.</span>"
-            ],
-            "guid": "Q$6GMND[8R",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What are the four main DNA sequencing methods used by NGS systems?",
-                "<ul><li>Pyrosequencing</li><li>Sequencing by synthesis</li><li>Sequencing by ligation</li><li>Ion semiconductor sequencing</li></ul>"
-            ],
-            "guid": "gLKhja|HDV",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Explain sequencing by synthesis",
-                "Sequencing by synthesis is the most common method.<br>A complimentary strand is generated by DNA polymerase and the addition of each base is somehow “observed” using imaging tech-<br>niques.DNA<br>oriented to a particular spot on a surface and the<br>entire surface is imaged. However, rather than ana-<br>lyze a static image, as with array-based genotyping<br>detecting the presence of certain alleles, the DNA is<br>synthesized on the surface, which is imaged multi-<br>ple times as nucleotide bases are added during the<br>synthesis process<br>1. DNA sample is randomly frag-<br>mented into short fragments (less than 1 kb) and<br>adapter sequences are attached to each fragment<br>by a biochemical process.<br>During the sequencing<br>reaction, these adapters then base pair with reverse<br>complement sequences that are attached to a chip,<br>or flowcell (approximately the same size as a DNA<br>microarray), which anchor the fragments of DNA<br>from the sample<br>2.A “bridge PCR” process is then<br>performed on the surface to amplify the DNA, in a<br>manner that keeps the duplicate copies in the same<br>local region or “cluster”<br>One more round of syn-<br>thesis is then performed, but the reaction is paused<br>at every cycle, where fluorescent bases with revers-<br>ible terminators are added. The flowcell is then<br>imaged, and the fragments are modified to allow<br>synthesis of the next cycle (Figure 3.7).<br>The flowcell images are then processed to determine<br>the sequence of each fragment, or short read. The base<br>intensity for each base in each cluster is processed by<br>base calling software to determine the identity of each<br>nucleotide in a read, as well as the quality of that base<br>call.<br><br><br>Platforms that use this strategy: Illumina"
-            ],
-            "guid": "w%#qLRA>48",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Explain 454 sequencing/pyrosequencing",
-                "It is a variation of sequencing by synthesis.<br>The reaction is continuous&nbsp;and the surface is imaged continuously.<br>each base of a read is observed by fluores-<br>cence in real time and homopolymers (strings of the<br>same nucleotide multiple times in a row, such as<br>GGGGGGG) are detected by longer pulses of fluores-<br>cence, and the length of time that each nucleotide<br>fluoresces is proportional to the number of bases<br>observed."
-            ],
-            "guid": "I%zFjB7_vd",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Explain sequencing by ligation",
-                "&nbsp;a fragment of DNA<br>is inserted into a “nanoball” which contains the<br>adapter sequences.the end result involves a<br>slightly more complicated output than simple<br>short reads: current publicly available short read<br>aligners are not designed for these sequences, but<br>Complete Genomics has developed custom algo-<br>rithms for the analysis of these reads"
-            ],
-            "guid": "khI)3#cF9j",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What does it mean to generate a genome sequence at high sequencing depth",
-                "a typical genome sequenc-<br>ing run will sequence every region multiple times<br>over"
-            ],
-            "guid": "nszrZKKuIR",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What does it mean to have a high coverage?",
-                "A deep sequenced genome<br>at “30X” coverage means that, on average, each base<br>was sequenced 30 times. Of course, this is an average<br>measure and there is a high level of variability of<br>coverage for each specific base.<br>Some<br>bases are covered to a much higher depth, while others are not covered at all.<br>interestingly, no sequenc-<br>ing methods (not even shotgun Sanger sequencing)<br>can cover the whole human genome, and the notion<br>of “full genome” can more accurately be termed 99%<br>of a whole genome.<br>, the current practice is<br>to ignore these last few megabases of the genome,<br>which are largely comprised of repetitive regions,<br>telomeres, or centromeres ."
-            ],
-            "guid": "cb%DNq|Ksh",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What is reference-guided assembly",
-                "It is a strategy to reassemble the short reads in wich they are mapped to the reference genome, whiwhile still allowing some mismatches, insertions,<br>and deletions (both to allow true differences from the<br>reference and sequencing errors). These involve com-<br>plicated sequence alignment algorithms<br>There are two crucial aspects to these<br>algorithms, speed and error tolerance."
-            ],
-            "guid": "PTy5U%{J$5",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Name 2 original sequence alignment algorithms",
-                "BLAST and BLAT. they have high acuracy. They are run in parallel"
-            ],
-            "guid": "qY[tSDFC6:",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What is variant calling or variant<br>detection",
-                "After sequencing reads are properly mapped and<br>the entire genome sequence is fully assembled,<br>we can perform an a<b>dditional analysis to deter-<br>mine the presence and form of genetic variants.<br></b>One of the most common approaches to variant<br>calling is based on comparison to a reference<br>genome. In the case of single nucleotide variants<br>(e.g. SNPs, indels), the reference-based approach<br>simply compares each position in the mapped<br>reads from the sample to the coordinate position<br>in the reference, and variants are called for those<br>positions where the sample genome differs from<br>the reference"
-            ],
-            "guid": "hVM~aD2&1o",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What is a CNV",
-                "<span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">Copy number variation (abbreviated CNV) refers to&nbsp;</span><b>a circumstance in which the number of copies of a specific segment of DNA varies among different individuals' genomes</b><span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">. The individual variants may be short or include thousands of bases.</span>"
-            ],
-            "guid": "j*U7I|L[TC",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What is de novo assembly?",
-                "A potentially better strategy for variant discovery<br>incorporates de novo assembly, where the complete<br>genome sequence is assembled from sequencing<br>reads without guidance from a reference genome—<br>as was performed for the first human genome.<br><br><br><br><br>Ref-<br>erence-guided assembly has inherent biases towards<br>assembling a genome that more closely resembles<br>the reference genome. This bias can introduce errors<br>into variant calling procedures, even when the dif-<br>ference between the sample and the reference is<br>small. F"
-            ],
-            "guid": "j%?^2kjD]e",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What is reference<br>sequence bias?",
-                "For example, if we were to map reads and<br>allow two mismatches per read, reads that are iden-<br>tical to the reference for the entire read, except for<br>two sequencing errors (e.g. mis-called bases), would<br>map perfectly. However, reads that have one true<br>SNP, but two sequencing errors, would not be<br>mapped, as the read would appear to have three mis-<br>matches compared to the reference. Thus, we would<br>observe a bias towards reads that are identical to the<br>reference in a phenomenon known as reference<br>sequence bias. This bias could prevent true variants<br>from being called, and therefore cause them to be<br>excluded from downstream variant analysis. Such<br>omissions could have profound implications for<br>variant-dependent analyses, such as disease risk or<br>pharmacogenomic assessment (see Chapters 6–7).<br>De novo assembly is not susceptible to this bias,<br>because it does not assume any structure to the<br>underlying sequence and is, therefore, unbiased."
-            ],
-            "guid": "m~a-0_WCb#",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What is&nbsp;dbSNP?",
-                "the<br>NCBI has created a database of SNPs, aptly called<br>dbSNP, which employs stable identifiers for refer-<br>encing specific variant locations.<br>In this database,SNPs and short indels are identified by an RSID, a<br>number prefixed by “rs” that is a unique identifier<br>for the SNP (Table 3.3). When the reference genome<br>is updated to a new build, NCBI provides the neces-<br>sary translation tables to map an RSID to current<br>and previous builds of the human reference genome.<br>When possible, we will use dbSNP RSIDs through-<br>out the book when referencing particular SNPs."
-            ],
-            "guid": "AWOqd]iC4|",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What do we do with uncharacterized variants that are not in any database?",
-                "it is likely that any one indi-<br>vidual will harbor many uncharacterized variants<br>for the foreseeable future, including variants that<br>are specific to each individual, which are known<br>as de novo or “private” mutations (Chapter 10).<br>Therefore, it will still be necessary to represent<br>these variants using some standard reference coor-<br>dinate system. Fortunately, there are software<br>tools available, such as the UCSC Genome Browser<br>LiftOver tool (&lt;http://genome.ucsc.edu/cgi-bin/<br>hgLiftOver&gt;), which can translate between the<br>coordinate systems of various builds of the human<br>reference genome."
-            ],
-            "guid": "z?C9lXkrJE",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What is the standard for genomic variant infor-<br>mation?",
-                "the prevailing standard for genomic variant infor-<br>mation is the Variant Call Format (VCF; &lt; <a href=\"http://\">http://</a><br>www.1000genomes.org/wiki/Analysis/variant-<br>call-format&gt;), which can store information about<br>SNPs and indels along with other relevant fields,<br>such as variant call quality. Newer versions of the<br>VCF specification have allowed for more compli-<br>cated structural variants which may span different<br>chromosomes (see Chapter 11)."
-            ],
-            "guid": "FoF6O5*7Dp",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What is a karyotype?",
-                "visual representation of chromosomes<br>and their organization<br><img alt=\"Chromosomal Karyotyping Test: Definition, Types &amp; Factors\" src=\"paste-56c57e12241f1ba415c8ac01e07a6d170333389b.png\">"
-            ],
-            "guid": "uSoeWfzGeN",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What is a ideogram?",
-                "Ideogram representations are used to display<br>iconographic maps of genomic information using<br>the visual metaphor of chromosomal organiza-<br>tion. Because the term karyotype is also used to<br>refer to a visual representation of chromosomes<br>and their organization, ideograms are sometimes<br>called karyograms or digital karyotypes (if com-<br>puter generated), or virtual karyotypes.<br><br>Karyo-<br>type representations are born out of a subfield of<br>genetics called cytogenetics"
-            ],
-            "guid": "LJFdL4_U.O",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What is&nbsp;cytogenetics?",
-                "Karyo-<br>type representations are born out of a subfield of<br>genetics called cytogenetics , which is largely con-<br>cerned with the study of relationships between<br>chromosomal structure and organization, and how this relates to the structure and function of<br>cells (Figure 4.4).<br><img src=\"paste-e6702ade699744677e258d1fdfbc37f49c3de47a.jpg\">"
-            ],
-            "guid": "Jjf,c$4{^A",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What is G-banding?",
-                "Early efforts in karyotyping<br>used a technique called G-banding, in which<br>chromosomes are stained with a chemical solu-<br>tion that will cause dark bands to appear at cer-<br>tain locations in the chromosomes, which are<br>related to A-T rich regions and contain fewer<br>functional gene regions. Many digitally gener-<br>ated karyotypes (i.e. ideograms) will shade chro-<br>mosomes according to locations of known genes<br>to simulate this G-banding."
-            ],
-            "guid": "rZ-_9U?ZVN",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "what is fluorescent in<br>situ hybridization (FISH)?",
-                "However, more mod-<br>ern cytogenetic techniques, such as fluorescent in<br>situ hybridization (FISH), can offer more detailed,<br>and colorful, representations of chromosomal<br>structure and organization.<br><img alt=\"Fluorescence in situ hybridization - Wikipedia\" src=\"Bcrablmet.jpg\">"
-            ],
-            "guid": "G~xVv<xN<#",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "what is&nbsp;<span style=\"color: rgb(0, 32, 33); background-color: rgb(255, 255, 255);\">Aneuploidy?</span>",
-                "<b>The occurrence of one or more extra or missing chromosomes in a cell or organism</b><span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">. Aneuploidy refers to any chromosome number that is not an exact multiple of the haploid number of chromosomes (which is 23 in humans).</span>"
-            ],
-            "guid": "eg(NvJW]@w",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "<span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">whats the meaning of aetiological/</span><span style=\"color: rgb(0, 29, 53); background-color: rgb(255, 255, 255);\">etiological?</span>",
-                "<div><div><div><div>1.</div><div><div><div>Medicine</div><div><div><div>causing or contributing to the development of a disease or condition.</div><div><div>\"an antibody response to these bacteria could play an aetiological role in ulcerative colitis\"</div></div></div></div></div></div></div><div></div></div></div><div><div><div><div>2.</div><div><div><div><div><div>serving to explain something by giving a cause or reason for it, often in historical or&nbsp;mythical&nbsp;terms.</div><div><div>\"the book recounts aetiological stories of the creation\"</div></div></div></div></div></div></div></div></div>"
-            ],
-            "guid": "i>Qi$Si][#",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "whats the meaning of&nbsp;<span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">congenital?</span>",
-                "<div>(of a disease or physical&nbsp;<span style=\"text-decoration-line: underline;\"><a href=\"https://www.google.com/search?sca_esv=f6b1f262c9e801ca&amp;sxsrf=ADLYWIK1kP2NrZ7Ez8SkPLL-V4jOo9Mg2A:1733423146664&amp;q=abnormality&amp;si=ACC90nwKPQWKXvO0LWGU61hOTgoDxLj5KhYHVbPYLqAv82VHYPuyqP3fRh31mkCk3AGv5aB9FeWhmD0bpdaizZ_N0QqOmfZUytJ4CNmmHkHIObgXmA46C-Q%3D&amp;expnd=1&amp;sa=X&amp;ved=2ahUKEwiD1Zu3oJGKAxUEqpUCHbwgLUMQyecJegQIPBAO\">abnormality</a></span>) present from birth.</div><div><div>\"a congenital malformation of the heart\"</div></div><div><div>(of a person) having a particular&nbsp;<span style=\"text-decoration-line: underline;\"><a href=\"https://www.google.com/search?sca_esv=f6b1f262c9e801ca&amp;sxsrf=ADLYWIK1kP2NrZ7Ez8SkPLL-V4jOo9Mg2A:1733423146664&amp;q=trait&amp;si=ACC90nwXlEU2j3qee_ajN1FbIPWBTYMOkTOnEQ_Z8QX7RHCBUvF4u0pV2qRgKYXfxIG4zfxe-LPfHflG9UptjZhkRnlj8BLtSA%3D%3D&amp;expnd=1&amp;sa=X&amp;ved=2ahUKEwiD1Zu3oJGKAxUEqpUCHbwgLUMQyecJegQIPBA7\">trait</a></span>&nbsp;from birth or by firmly established habit.</div><div><div>\"a congenital liar\"</div></div></div>"
-            ],
-            "guid": "B0Ka%,)(Rn",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What is GWAS?",
-                "<span style=\"color: rgb(0, 29, 53); background-color: rgb(255, 255, 255);\">A genome-wide association study (GWAS) is&nbsp;</span>a research method that compares the DNA of many people to identify genetic markers associated with a disease or trait<br><span style=\"color: rgb(34, 34, 34); background-color: rgb(255, 255, 255);\">Genome-wide association studies (GWAS) test hundreds of thousands of genetic variants across many genomes to find those statistically associated with a specific trait or disease. This methodology has generated a myriad of robust associations for a range of traits and diseases, and the number of associated variants is expected to grow steadily as GWAS sample sizes increase.</span>"
-            ],
-            "guid": "EE~%Wm0(xT",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What is a&nbsp;<span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">nomogram?</span>",
-                "<span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">a diagram representing the relations between three or more variable quantities by means of a number of scales, so arranged that the value of one variable can be found by a simple&nbsp;</span><span style=\"text-decoration-line: underline; color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\"><a href=\"https://www.google.com/search?sca_esv=2e484b4e376f015d&amp;biw=1920&amp;bih=915&amp;sxsrf=ADLYWIJr7P8AA6Zsucy7rwNwYVXy36Ov6A:1733605497756&amp;q=geometrical&amp;si=ACC90nwKPQWKXvO0LWGU61hOTgoDzC4ptEP8_9k6uPwusV3zE1lLZjFEpxDRGeS-q9VWd3u0TDuXtaJ5oXSslebQ9TEwsZHXBHxdbXiqoKFEWom233pPicI%3D&amp;expnd=1&amp;sa=X&amp;ved=2ahUKEwjiiP_ex5aKAxUWGbkGHcxaJGgQyecJegQIMRAO\">geometrical</a></span><span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">&nbsp;construction, e.g. by drawing a straight line&nbsp;</span><span style=\"text-decoration-line: underline; color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\"><a href=\"https://www.google.com/search?sca_esv=2e484b4e376f015d&amp;biw=1920&amp;bih=915&amp;sxsrf=ADLYWIJr7P8AA6Zsucy7rwNwYVXy36Ov6A:1733605497756&amp;q=intersecting&amp;si=ACC90nxgkPHmtVkpPj_lUgtQ0AenOdN_dYzSqb0U9LhgrL-sYRmaPbOzbS3bJJlTx2KCtWKA8pZ9dcMLg0mCWlO8h2PYcl1IKTUQW8n_Xfi3ujL2o0vlt24%3D&amp;expnd=1&amp;sa=X&amp;ved=2ahUKEwjiiP_ex5aKAxUWGbkGHcxaJGgQyecJegQIMRAP\">intersecting</a></span><span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">&nbsp;the other scales at the appropriate values.<br></span><img alt=\"Nomogram - Wikipedia\" src=\"300px-Components_of_a_Nomogram.png\">"
-            ],
-            "guid": "LN5IVa&uDe",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Principal Component Analysis/PCA",
-                "PCA is a statistical method that finds orthogonal (i.e. uncorrelated) principal component<br>vectors that maximize variance of a data set. A prin-<br>cipal component is essentially a linear combination<br>of variables (genomic loci in this case) that can be<br>combined such that they maximize the variance<br>(difference among individuals) explained (see Box<br>5.1). PCA will extract principal components from<br>the data in decreasing order of variance explained.<br>Since the first two principal components will explain<br>most of the genetic differences between popula-<br>tions, and are statistically independent, we can plot<br>the components against each other using a familiar<br>2-D scatterplot to visualize and explore the differ-<br>ences and relationships between individuals and<br>populations."
-            ],
-            "guid": "Nrtox&$9p6",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Difference between IBD and IBS",
-                "<span style=\"color: rgb(34, 34, 34); background-color: rgb(255, 255, 255);\">Identity by descent (IBD) is a fundamental concept in genetics and refers to alleles that are descended from a common ancestor in a base population. Identity by state (IBS) simply refers to alleles that are the same, irrespective of whether they are inherited from a recent ancestor.</span>"
-            ],
-            "guid": "NzOkD>5x08",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What is the odds ratio?",
-                "The odds ratio (OR)<br>is simply computed as the “odds of having the trait<br>given the trait-associated allele” divided by the<br>“odds of having the trait given the non-associated<br>allele”.<br><img src=\"paste-ea66bc91f552671418ad2b6e757d4eff1a228375.jpg\">"
-            ],
-            "guid": "Ey,BE5et52",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "What is the likelihood ratio?",
-                "the likelihood ratio,calculates the likelihood of the disease condi-<br>tioned upon a risk genotype, which is the probabil-<br>ity of the genotype among the diseased individuals<br>divided by the probability of the genotype among<br>the healthy controls (note the flip in dependencies<br>in this calculation)."
-            ],
-            "guid": "MKnH;AI2s;",
-            "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
-            "tags": []
-        }
-    ],
-    "reviewLimit": null,
-    "reviewLimitToday": null
+      ],
+      "type": 0
+    }
+  ],
+  "notes": [
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is ADME?",
+        "Absorption, Distribution, Metabolism, and Excretion. The four major processes controlling a drug's progression through the body."
+      ],
+      "guid": "A1B2C3D4E5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is an Allele?",
+        "A particular form of a gene or other polymorphic locus (e.g., SNP). For instance, at a specific A/G SNP, two possible alleles are A or G. This definition may be expanded to genes that have multiple polymorphisms (see also Haplotypes)."
+      ],
+      "guid": "F6G7H8I9J0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is Alternative splicing?",
+        "The process of removing introns in different patterns to form different isoforms from the same gene. For instance, if a gene has exons A, B, and C with introns between each of these, a gene product of A-B-C could be formed by removing just the introns, while A-C could be formed by removing the B exon in addition."
+      ],
+      "guid": "K1L2M3N4O5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is Aneuploidy?",
+        "The condition of having an abnormal number (less or greater) of chromosomes in a cell. Anueploidy can arise as an inborn molecular trait (e.g., trisomy 21 associated with Down's syndrome), or through errors in somatic cell division."
+      ],
+      "guid": "P6Q7R8S9T0",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What are Bacterial Artificial Chromosomes (BACs)?",
+        "An engineered DNA construct used to clone DNA sequence fragments using bacterial cells as vectors. Large fragments of human DNA (up to 300kb) can be inserted into BACs, and the BAC plasmid can be taken up by bacterial cells, which amplify the foreign DNA fragments when they replicate. The amplified DNA fragments can be isolated from the expanded bacterial population and used for DNA sequencing."
+      ],
+      "guid": "U1V2W3X4Y5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["genomics-glossary"]
+    },
+
+    {
+      "__type__": "Note",
+      "fields": [
+        "Microbiomics",
+        "The science of collectively characterizing and quantifying molecules responsible for the structure, function, and dynamics of a microbial community."
+      ],
+      "guid": "m+ok72);$a",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["libro-ExploringPersonalGenomics"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "Metagenomics",
+        "The study of the structure and function of entire nucleotide sequences isolated and analyzed from all the organisms (typically microbes) in a bulk sample."
+      ],
+      "guid": "O!}LXDlhHl",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["libro-ExploringPersonalGenomics"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "Genotyping",
+        "Is the process of determining differences in the genetic make-up (genotype) of an individual by examining the individual's DNA sequence using biological assays and comparing it to another individual's sequence or a reference sequence. It reveals the alleles an individual has inherited from their parents.[1] Traditionally genotyping is the use of DNA sequences to define biological populations by use of molecular tools. It does not usually involve defining the genes of an individual."
+      ],
+      "guid": "GKc}vQ+9v.",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["libro-ExploringPersonalGenomics"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "Which are the 3 levels of information one can get from their DNA?",
+        "<ul><li>Genotype</li><li>Full exome</li><li>Full genome</li></ul>"
+      ],
+      "guid": "KjaUEWj5Uq",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["libro-ExploringPersonalGenomics"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "Which is the most common method for high-throughput genotyping of a personal genome?",
+        "DNA microarrays/SNP chips"
+      ],
+      "guid": "F>L4x,BPq9",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["libro-ExploringPersonalGenomics"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is a DNA microarray/SNP chip/DNA chip/biochip?",
+        "A DNA microarray is a collection of microscopic DNA spots attached to a solid surface.<br>They allow you to measure the expression levels of &nbsp;large numbers of genes simultaneously or to&nbsp;genotype&nbsp;multiple regions of a genome.<br>Each DNA spot contains a specific DNA sequence known as a probe/reporter/oligo.<br>The fluorecent sample is exposed to the probes. It will bond with the one that complements it.<br>They probe a set of approximately one million SNPs simultaneously.<br>SNP<br>arrays are often designed for a specific target pop-<br>ulation because different world-<br>wide populations and ethnicities have different<br>linkage structures and haplotype blocks"
+      ],
+      "guid": "O3G.q:Ig>o",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["libro-ExploringPersonalGenomics"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "Why are SNP chips useful if they only detect a small percentage of the genome?",
+        "Since any two individuals are identical at 99.9% of the genome and most of the polymorphisms in a personal genome are common it is possible to capture the bulk of genetic variation through measurement of only a few million SNPs. Furthermore, the widespread presence of <b>linkage<br>disequilibrium</b> (LD) throughout the genome further reduces the number of SNPs that need to be measured. Specifically, if multiple SNPs in a given region are linked, one of them can serve as a proxy tag SNP for the others, meaning only one of them needs to be measured to accurately infer (in a<br>process known as imputation) the genotype at the others."
+      ],
+      "guid": "lU+z7a8V`N",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": ["libro-ExploringPersonalGenomics"]
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "¿Que es&nbsp;homocigoto y heterocigoto?",
+        "Un individuo tiene 2 copias de cada gen, denominadas alelo materno y alelo paterno. Cuando los 2 alelos de un gen son idénticos, se denomina homocigoto"
+      ],
+      "guid": "bliMV}<.Xq",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "Que estudia la genomica",
+        "el genoma(el conjunto de genes) y la relacion entre genes y su entorno celular"
+      ],
+      "guid": "C^3#5;/reS",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "Que es la&nbsp;degeneración del código genético",
+        "la&nbsp;propiedad de diferentes tripletes se traducen (o codifican) en un mismo aminoácido"
+      ],
+      "guid": "yL=Dhv?sNk",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "Cuales son las generaciones de secuenciacion de genoma?",
+        "1ra generacion: metodo de sanger<br>2da generacion:secuenciacion por sintesis<br>3ra generacion: aun en desarrollo, lee de principio a fin una larga molecula de adn"
+      ],
+      "guid": "_lH[3IAe8",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "Explain how Sanger's classic sequencing works and its diference with modern Sanger's sequencing",
+        "Sanger sequencing is based on Di deoxy nucleotides.<br>Di means two, deoxy means without oxidril group.<br>Nucleotide:<br><img src=\"paste-d6fcba7c3e9753eaa6202d37aa16fdc3770e360a.jpg\"><br>Deoxy nucleotide (present in DNA):<br><img src=\"paste-fe67d9bd4368353a924e612d72ebe8a8810f248f.jpg\"><br>The hidroxil group attached plays a very important role in DNA polimerization reaction between the phosphate and the hidroxil.<br><img src=\"paste-b45af165e7be2ace96b82aa381ffaa60d469e593.jpg\"><br>Sanger thought, if the OH group is absent then the reaction stops<br><img src=\"paste-5bb6a1c71308bf65221db141c1d0f2ed0bea0dec.jpg\"><br>The template DNA to be sequenced is divided into four tubes. Each has a primer that will bind to the template DNA.<br>Each tube has:<br>- A primer<br>- dNTP (deoxy nucleotide triphosphate) (A,T,G and C)<br>- DNA polimerase<br>- One radiolabelled(any compound that has been joined with a radioactive substance) dideoxy nucleotide (at very low concentration)<br>Tube 1: ddATP<br>Tube 2: ddTTP<br>Tube 3: ddGTP<br>Tube 4: ddCTP<br><br>These dideoxynucleotides attach at random so you end up with diferent lengths of dna segments all indicating a specific base. The dna fragments are heat denatured and separated by size using gel electrophoresis.<br>The dna bands may then be visualized by&nbsp;autoradiography&nbsp;or UV light, and the DNA sequence can be directly read off the&nbsp;X-ray film&nbsp;or gel image.<br><img src=\"Sequencing.jpg\"><br><br>HOW MODERN SANGER SEQUENCING IS MADE (uses Taq DNA polimerase):<br>each dideoxynucleotide is attached to a fluorescent dye. Only one tube is needed.<br><img src=\"paste-756cf0337dd4b467941e9f42fde96bf705152b7c.jpg\"><br>It also uses capillary electrophoresis fot he separation of the dna fragments. They are equiped with CCD (charged coupled devices) for the detection of fluorescent signals.<br><br><br>"
+      ],
+      "guid": "Kt)-=1-!i8",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is PCR",
+        "PCR or polimerase chain reaction provides a way to make more copies of a portion of DNA it does not have to happen in a cell, it can happen in a test tube.<br>You need:<br>- DNA portion<br>- Buffer: where to put everything<br>- Primer<br>- DNA polymerase (a heat resistent type, as PCR uses heat, called Taq Polymerase)<br>- DNA nucleotides<br><br>1. Denaturation (to separate the two strands)<br>2. Annealing (cooling and binded with the primers)<br>3. DNA synthesis<br><br>Now repeat the steps"
+      ],
+      "guid": "p-Tu?=,qf`",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is a bacterial artificial chromosome",
+        "<span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">A bacterial&nbsp;</span><span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">artificial chromosome</span><span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">&nbsp;(BAC) is&nbsp;</span><b>an engineered DNA molecule used to clone DNA sequences in bacterial cells</b><span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">&nbsp;(for example, E. coli). BACs are often used in connection with DNA sequencing. Segments of an organism's DNA, ranging from 100,000 to about 300,000 base pairs, can be inserted into BACs.<br></span>&nbsp;In BAC sequencing, short piece of the organism's&nbsp;DNA&nbsp;is amplified as an insert in BACs, and then sequenced. Finally, the sequenced parts are rearranged&nbsp;in silico, resulting in the genomic sequence of the organism. BACs were replaced with faster and less laborious sequencing methods like whole genome&nbsp;shotgun sequencing&nbsp;and now more recently&nbsp;next-gen sequencing."
+      ],
+      "guid": "q%*D4<IVN:",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is shotgun sequencing",
+        "In this<br>method, a region of interest is randomly fragmented<br>and the resulting fragments are sequenced, in the<br>hope of finding overlapping segments that can be<br>strung together akin to assembling a DNA puzzle"
+      ],
+      "guid": "Rcaz9aKr:a",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is refered to as the reference genome",
+        "the reference genome is the genome sequenced in the human genome project<br><span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">A Reference Genome is&nbsp;</span><b>a standardized representative sequence created from the genomes of multiple individuals, serving as a genetic baseline for comparing DNA changes</b><span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">. It is used to compare patient data and is maintained and updated by scientific collaborations to improve accuracy in genomic analysis.</span>"
+      ],
+      "guid": "Q$6GMND[8R",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What are the four main DNA sequencing methods used by NGS systems?",
+        "<ul><li>Pyrosequencing</li><li>Sequencing by synthesis</li><li>Sequencing by ligation</li><li>Ion semiconductor sequencing</li></ul>"
+      ],
+      "guid": "gLKhja|HDV",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "Explain sequencing by synthesis",
+        "Sequencing by synthesis is the most common method.<br>A complimentary strand is generated by DNA polymerase and the addition of each base is somehow “observed” using imaging tech-<br>niques.DNA<br>oriented to a particular spot on a surface and the<br>entire surface is imaged. However, rather than ana-<br>lyze a static image, as with array-based genotyping<br>detecting the presence of certain alleles, the DNA is<br>synthesized on the surface, which is imaged multi-<br>ple times as nucleotide bases are added during the<br>synthesis process<br>1. DNA sample is randomly frag-<br>mented into short fragments (less than 1 kb) and<br>adapter sequences are attached to each fragment<br>by a biochemical process.<br>During the sequencing<br>reaction, these adapters then base pair with reverse<br>complement sequences that are attached to a chip,<br>or flowcell (approximately the same size as a DNA<br>microarray), which anchor the fragments of DNA<br>from the sample<br>2.A “bridge PCR” process is then<br>performed on the surface to amplify the DNA, in a<br>manner that keeps the duplicate copies in the same<br>local region or “cluster”<br>One more round of syn-<br>thesis is then performed, but the reaction is paused<br>at every cycle, where fluorescent bases with revers-<br>ible terminators are added. The flowcell is then<br>imaged, and the fragments are modified to allow<br>synthesis of the next cycle (Figure 3.7).<br>The flowcell images are then processed to determine<br>the sequence of each fragment, or short read. The base<br>intensity for each base in each cluster is processed by<br>base calling software to determine the identity of each<br>nucleotide in a read, as well as the quality of that base<br>call.<br><br><br>Platforms that use this strategy: Illumina"
+      ],
+      "guid": "w%#qLRA>48",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "Explain 454 sequencing/pyrosequencing",
+        "It is a variation of sequencing by synthesis.<br>The reaction is continuous&nbsp;and the surface is imaged continuously.<br>each base of a read is observed by fluores-<br>cence in real time and homopolymers (strings of the<br>same nucleotide multiple times in a row, such as<br>GGGGGGG) are detected by longer pulses of fluores-<br>cence, and the length of time that each nucleotide<br>fluoresces is proportional to the number of bases<br>observed."
+      ],
+      "guid": "I%zFjB7_vd",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "Explain sequencing by ligation",
+        "&nbsp;a fragment of DNA<br>is inserted into a “nanoball” which contains the<br>adapter sequences.the end result involves a<br>slightly more complicated output than simple<br>short reads: current publicly available short read<br>aligners are not designed for these sequences, but<br>Complete Genomics has developed custom algo-<br>rithms for the analysis of these reads"
+      ],
+      "guid": "khI)3#cF9j",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What does it mean to generate a genome sequence at high sequencing depth",
+        "a typical genome sequenc-<br>ing run will sequence every region multiple times<br>over"
+      ],
+      "guid": "nszrZKKuIR",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What does it mean to have a high coverage?",
+        "A deep sequenced genome<br>at “30X” coverage means that, on average, each base<br>was sequenced 30 times. Of course, this is an average<br>measure and there is a high level of variability of<br>coverage for each specific base.<br>Some<br>bases are covered to a much higher depth, while others are not covered at all.<br>interestingly, no sequenc-<br>ing methods (not even shotgun Sanger sequencing)<br>can cover the whole human genome, and the notion<br>of “full genome” can more accurately be termed 99%<br>of a whole genome.<br>, the current practice is<br>to ignore these last few megabases of the genome,<br>which are largely comprised of repetitive regions,<br>telomeres, or centromeres ."
+      ],
+      "guid": "cb%DNq|Ksh",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is reference-guided assembly",
+        "It is a strategy to reassemble the short reads in wich they are mapped to the reference genome, whiwhile still allowing some mismatches, insertions,<br>and deletions (both to allow true differences from the<br>reference and sequencing errors). These involve com-<br>plicated sequence alignment algorithms<br>There are two crucial aspects to these<br>algorithms, speed and error tolerance."
+      ],
+      "guid": "PTy5U%{J$5",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "Name 2 original sequence alignment algorithms",
+        "BLAST and BLAT. they have high acuracy. They are run in parallel"
+      ],
+      "guid": "qY[tSDFC6:",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is variant calling or variant<br>detection",
+        "After sequencing reads are properly mapped and<br>the entire genome sequence is fully assembled,<br>we can perform an a<b>dditional analysis to deter-<br>mine the presence and form of genetic variants.<br></b>One of the most common approaches to variant<br>calling is based on comparison to a reference<br>genome. In the case of single nucleotide variants<br>(e.g. SNPs, indels), the reference-based approach<br>simply compares each position in the mapped<br>reads from the sample to the coordinate position<br>in the reference, and variants are called for those<br>positions where the sample genome differs from<br>the reference"
+      ],
+      "guid": "hVM~aD2&1o",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is a CNV",
+        "<span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">Copy number variation (abbreviated CNV) refers to&nbsp;</span><b>a circumstance in which the number of copies of a specific segment of DNA varies among different individuals' genomes</b><span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">. The individual variants may be short or include thousands of bases.</span>"
+      ],
+      "guid": "j*U7I|L[TC",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is de novo assembly?",
+        "A potentially better strategy for variant discovery<br>incorporates de novo assembly, where the complete<br>genome sequence is assembled from sequencing<br>reads without guidance from a reference genome—<br>as was performed for the first human genome.<br><br><br><br><br>Ref-<br>erence-guided assembly has inherent biases towards<br>assembling a genome that more closely resembles<br>the reference genome. This bias can introduce errors<br>into variant calling procedures, even when the dif-<br>ference between the sample and the reference is<br>small. F"
+      ],
+      "guid": "j%?^2kjD]e",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is reference<br>sequence bias?",
+        "For example, if we were to map reads and<br>allow two mismatches per read, reads that are iden-<br>tical to the reference for the entire read, except for<br>two sequencing errors (e.g. mis-called bases), would<br>map perfectly. However, reads that have one true<br>SNP, but two sequencing errors, would not be<br>mapped, as the read would appear to have three mis-<br>matches compared to the reference. Thus, we would<br>observe a bias towards reads that are identical to the<br>reference in a phenomenon known as reference<br>sequence bias. This bias could prevent true variants<br>from being called, and therefore cause them to be<br>excluded from downstream variant analysis. Such<br>omissions could have profound implications for<br>variant-dependent analyses, such as disease risk or<br>pharmacogenomic assessment (see Chapters 6–7).<br>De novo assembly is not susceptible to this bias,<br>because it does not assume any structure to the<br>underlying sequence and is, therefore, unbiased."
+      ],
+      "guid": "m~a-0_WCb#",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is&nbsp;dbSNP?",
+        "the<br>NCBI has created a database of SNPs, aptly called<br>dbSNP, which employs stable identifiers for refer-<br>encing specific variant locations.<br>In this database,SNPs and short indels are identified by an RSID, a<br>number prefixed by “rs” that is a unique identifier<br>for the SNP (Table 3.3). When the reference genome<br>is updated to a new build, NCBI provides the neces-<br>sary translation tables to map an RSID to current<br>and previous builds of the human reference genome.<br>When possible, we will use dbSNP RSIDs through-<br>out the book when referencing particular SNPs."
+      ],
+      "guid": "AWOqd]iC4|",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What do we do with uncharacterized variants that are not in any database?",
+        "it is likely that any one indi-<br>vidual will harbor many uncharacterized variants<br>for the foreseeable future, including variants that<br>are specific to each individual, which are known<br>as de novo or “private” mutations (Chapter 10).<br>Therefore, it will still be necessary to represent<br>these variants using some standard reference coor-<br>dinate system. Fortunately, there are software<br>tools available, such as the UCSC Genome Browser<br>LiftOver tool (&lt;http://genome.ucsc.edu/cgi-bin/<br>hgLiftOver&gt;), which can translate between the<br>coordinate systems of various builds of the human<br>reference genome."
+      ],
+      "guid": "z?C9lXkrJE",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is the standard for genomic variant infor-<br>mation?",
+        "the prevailing standard for genomic variant infor-<br>mation is the Variant Call Format (VCF; &lt; <a href=\"http://\">http://</a><br>www.1000genomes.org/wiki/Analysis/variant-<br>call-format&gt;), which can store information about<br>SNPs and indels along with other relevant fields,<br>such as variant call quality. Newer versions of the<br>VCF specification have allowed for more compli-<br>cated structural variants which may span different<br>chromosomes (see Chapter 11)."
+      ],
+      "guid": "FoF6O5*7Dp",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is a karyotype?",
+        "visual representation of chromosomes<br>and their organization<br><img alt=\"Chromosomal Karyotyping Test: Definition, Types &amp; Factors\" src=\"paste-56c57e12241f1ba415c8ac01e07a6d170333389b.png\">"
+      ],
+      "guid": "uSoeWfzGeN",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is a ideogram?",
+        "Ideogram representations are used to display<br>iconographic maps of genomic information using<br>the visual metaphor of chromosomal organiza-<br>tion. Because the term karyotype is also used to<br>refer to a visual representation of chromosomes<br>and their organization, ideograms are sometimes<br>called karyograms or digital karyotypes (if com-<br>puter generated), or virtual karyotypes.<br><br>Karyo-<br>type representations are born out of a subfield of<br>genetics called cytogenetics"
+      ],
+      "guid": "LJFdL4_U.O",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is&nbsp;cytogenetics?",
+        "Karyo-<br>type representations are born out of a subfield of<br>genetics called cytogenetics , which is largely con-<br>cerned with the study of relationships between<br>chromosomal structure and organization, and how this relates to the structure and function of<br>cells (Figure 4.4).<br><img src=\"paste-e6702ade699744677e258d1fdfbc37f49c3de47a.jpg\">"
+      ],
+      "guid": "Jjf,c$4{^A",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is G-banding?",
+        "Early efforts in karyotyping<br>used a technique called G-banding, in which<br>chromosomes are stained with a chemical solu-<br>tion that will cause dark bands to appear at cer-<br>tain locations in the chromosomes, which are<br>related to A-T rich regions and contain fewer<br>functional gene regions. Many digitally gener-<br>ated karyotypes (i.e. ideograms) will shade chro-<br>mosomes according to locations of known genes<br>to simulate this G-banding."
+      ],
+      "guid": "rZ-_9U?ZVN",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "what is fluorescent in<br>situ hybridization (FISH)?",
+        "However, more mod-<br>ern cytogenetic techniques, such as fluorescent in<br>situ hybridization (FISH), can offer more detailed,<br>and colorful, representations of chromosomal<br>structure and organization.<br><img alt=\"Fluorescence in situ hybridization - Wikipedia\" src=\"Bcrablmet.jpg\">"
+      ],
+      "guid": "G~xVv<xN<#",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "what is&nbsp;<span style=\"color: rgb(0, 32, 33); background-color: rgb(255, 255, 255);\">Aneuploidy?</span>",
+        "<b>The occurrence of one or more extra or missing chromosomes in a cell or organism</b><span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">. Aneuploidy refers to any chromosome number that is not an exact multiple of the haploid number of chromosomes (which is 23 in humans).</span>"
+      ],
+      "guid": "eg(NvJW]@w",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "<span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">whats the meaning of aetiological/</span><span style=\"color: rgb(0, 29, 53); background-color: rgb(255, 255, 255);\">etiological?</span>",
+        "<div><div><div><div>1.</div><div><div><div>Medicine</div><div><div><div>causing or contributing to the development of a disease or condition.</div><div><div>\"an antibody response to these bacteria could play an aetiological role in ulcerative colitis\"</div></div></div></div></div></div></div><div></div></div></div><div><div><div><div>2.</div><div><div><div><div><div>serving to explain something by giving a cause or reason for it, often in historical or&nbsp;mythical&nbsp;terms.</div><div><div>\"the book recounts aetiological stories of the creation\"</div></div></div></div></div></div></div></div></div>"
+      ],
+      "guid": "i>Qi$Si][#",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "whats the meaning of&nbsp;<span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">congenital?</span>",
+        "<div>(of a disease or physical&nbsp;<span style=\"text-decoration-line: underline;\"><a href=\"https://www.google.com/search?sca_esv=f6b1f262c9e801ca&amp;sxsrf=ADLYWIK1kP2NrZ7Ez8SkPLL-V4jOo9Mg2A:1733423146664&amp;q=abnormality&amp;si=ACC90nwKPQWKXvO0LWGU61hOTgoDxLj5KhYHVbPYLqAv82VHYPuyqP3fRh31mkCk3AGv5aB9FeWhmD0bpdaizZ_N0QqOmfZUytJ4CNmmHkHIObgXmA46C-Q%3D&amp;expnd=1&amp;sa=X&amp;ved=2ahUKEwiD1Zu3oJGKAxUEqpUCHbwgLUMQyecJegQIPBAO\">abnormality</a></span>) present from birth.</div><div><div>\"a congenital malformation of the heart\"</div></div><div><div>(of a person) having a particular&nbsp;<span style=\"text-decoration-line: underline;\"><a href=\"https://www.google.com/search?sca_esv=f6b1f262c9e801ca&amp;sxsrf=ADLYWIK1kP2NrZ7Ez8SkPLL-V4jOo9Mg2A:1733423146664&amp;q=trait&amp;si=ACC90nwXlEU2j3qee_ajN1FbIPWBTYMOkTOnEQ_Z8QX7RHCBUvF4u0pV2qRgKYXfxIG4zfxe-LPfHflG9UptjZhkRnlj8BLtSA%3D%3D&amp;expnd=1&amp;sa=X&amp;ved=2ahUKEwiD1Zu3oJGKAxUEqpUCHbwgLUMQyecJegQIPBA7\">trait</a></span>&nbsp;from birth or by firmly established habit.</div><div><div>\"a congenital liar\"</div></div></div>"
+      ],
+      "guid": "B0Ka%,)(Rn",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is GWAS?",
+        "<span style=\"color: rgb(0, 29, 53); background-color: rgb(255, 255, 255);\">A genome-wide association study (GWAS) is&nbsp;</span>a research method that compares the DNA of many people to identify genetic markers associated with a disease or trait<br><span style=\"color: rgb(34, 34, 34); background-color: rgb(255, 255, 255);\">Genome-wide association studies (GWAS) test hundreds of thousands of genetic variants across many genomes to find those statistically associated with a specific trait or disease. This methodology has generated a myriad of robust associations for a range of traits and diseases, and the number of associated variants is expected to grow steadily as GWAS sample sizes increase.</span>"
+      ],
+      "guid": "EE~%Wm0(xT",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is a&nbsp;<span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">nomogram?</span>",
+        "<span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">a diagram representing the relations between three or more variable quantities by means of a number of scales, so arranged that the value of one variable can be found by a simple&nbsp;</span><span style=\"text-decoration-line: underline; color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\"><a href=\"https://www.google.com/search?sca_esv=2e484b4e376f015d&amp;biw=1920&amp;bih=915&amp;sxsrf=ADLYWIJr7P8AA6Zsucy7rwNwYVXy36Ov6A:1733605497756&amp;q=geometrical&amp;si=ACC90nwKPQWKXvO0LWGU61hOTgoDzC4ptEP8_9k6uPwusV3zE1lLZjFEpxDRGeS-q9VWd3u0TDuXtaJ5oXSslebQ9TEwsZHXBHxdbXiqoKFEWom233pPicI%3D&amp;expnd=1&amp;sa=X&amp;ved=2ahUKEwjiiP_ex5aKAxUWGbkGHcxaJGgQyecJegQIMRAO\">geometrical</a></span><span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">&nbsp;construction, e.g. by drawing a straight line&nbsp;</span><span style=\"text-decoration-line: underline; color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\"><a href=\"https://www.google.com/search?sca_esv=2e484b4e376f015d&amp;biw=1920&amp;bih=915&amp;sxsrf=ADLYWIJr7P8AA6Zsucy7rwNwYVXy36Ov6A:1733605497756&amp;q=intersecting&amp;si=ACC90nxgkPHmtVkpPj_lUgtQ0AenOdN_dYzSqb0U9LhgrL-sYRmaPbOzbS3bJJlTx2KCtWKA8pZ9dcMLg0mCWlO8h2PYcl1IKTUQW8n_Xfi3ujL2o0vlt24%3D&amp;expnd=1&amp;sa=X&amp;ved=2ahUKEwjiiP_ex5aKAxUWGbkGHcxaJGgQyecJegQIMRAP\">intersecting</a></span><span style=\"color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);\">&nbsp;the other scales at the appropriate values.<br></span><img alt=\"Nomogram - Wikipedia\" src=\"300px-Components_of_a_Nomogram.png\">"
+      ],
+      "guid": "LN5IVa&uDe",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "Principal Component Analysis/PCA",
+        "PCA is a statistical method that finds orthogonal (i.e. uncorrelated) principal component<br>vectors that maximize variance of a data set. A prin-<br>cipal component is essentially a linear combination<br>of variables (genomic loci in this case) that can be<br>combined such that they maximize the variance<br>(difference among individuals) explained (see Box<br>5.1). PCA will extract principal components from<br>the data in decreasing order of variance explained.<br>Since the first two principal components will explain<br>most of the genetic differences between popula-<br>tions, and are statistically independent, we can plot<br>the components against each other using a familiar<br>2-D scatterplot to visualize and explore the differ-<br>ences and relationships between individuals and<br>populations."
+      ],
+      "guid": "Nrtox&$9p6",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "Difference between IBD and IBS",
+        "<span style=\"color: rgb(34, 34, 34); background-color: rgb(255, 255, 255);\">Identity by descent (IBD) is a fundamental concept in genetics and refers to alleles that are descended from a common ancestor in a base population. Identity by state (IBS) simply refers to alleles that are the same, irrespective of whether they are inherited from a recent ancestor.</span>"
+      ],
+      "guid": "NzOkD>5x08",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is the odds ratio?",
+        "The odds ratio (OR)<br>is simply computed as the “odds of having the trait<br>given the trait-associated allele” divided by the<br>“odds of having the trait given the non-associated<br>allele”.<br><img src=\"paste-ea66bc91f552671418ad2b6e757d4eff1a228375.jpg\">"
+      ],
+      "guid": "Ey,BE5et52",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "fields": [
+        "What is the likelihood ratio?",
+        "the likelihood ratio,calculates the likelihood of the disease condi-<br>tioned upon a risk genotype, which is the probabil-<br>ity of the genotype among the diseased individuals<br>divided by the probability of the genotype among<br>the healthy controls (note the flip in dependencies<br>in this calculation)."
+      ],
+      "guid": "MKnH;AI2s;",
+      "note_model_uuid": "65a91cb2-d5a1-11ef-a419-5bf4af1bb823",
+      "tags": []
+    }
+  ],
+  "reviewLimit": null,
+  "reviewLimitToday": null
 }
